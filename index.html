@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フラッシュカード</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4caf50">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="theme-screen">
+    <h1>なにかな？</h1>
+
+    <button class="theme-btn" data-theme="vegetables">
+      🥕 たべもの
+    </button>
+
+    <button class="theme-btn" data-theme="vehicles">
+      🚗 のりもの
+    </button>
+
+    <button class="theme-btn" data-theme="iro">
+      🎨 いろ 
+    </button>    
+
+    <button class="theme-btn" data-theme="form">
+      🔴  かたち
+    </button>
+
+    <button class="theme-btn" data-theme="animal">
+      🦁  どうぶつ
+    </button>
+
+    <button class="theme-btn" data-theme="character">
+      ⭐️  きゃらくたー
+    </button>
+  </div>
+
+  <div id="card-screen" class="hidden">
+
+    <button id="back-btn">
+      ← テーマにもどる
+    </button>
+
+    <div id="card">
+
+    <div class="card-box">
+        <div class="image-box">
+        <img id="card-image" src="" alt="">
+        </div>
+
+        <div id="card-name"></div>
+    </div>
+
+</div>
+
+    <button id="next-btn">
+      つぎへ ▶
+    </button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
