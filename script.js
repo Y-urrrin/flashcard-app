@@ -168,7 +168,7 @@ form: [
     },
     {
       name: "さんかく",
-      image: "images/form/sankakukei.png.png"
+      image: "images/form/sankakukei.png"
     },
     {
       name: "しかく",
@@ -234,7 +234,7 @@ form: [
     },
      {
       name: "りす",
-      image: "images/animal/.risupng"
+      image: "images/animal/risu.png"
     },
      {
       name: "さる",
@@ -281,6 +281,46 @@ form: [
     {
       name: "プルート",
       image: "images/character/pluto.png"
+    },
+    {
+      name: "マックイン",
+      image: "images/character/mcqueen.png"
+    },
+    {
+      name: "マック",
+      image: "images/character/mack.png"
+    },
+    {
+      name: "グイド",
+      image: "images/character/guido.png"
+    },
+    {
+      name: "メーター",
+      image: "images/character/mater.png"
+    },
+    {
+      name: "シェリフ",
+      image: "images/character/sheriff.png"
+    },
+    {
+      name: "レッド",
+      image: "images/character/redcar.png"
+    },
+    {
+      name: "プーさん",
+      image: "images/character/pooh.png"
+    },
+    {
+      name: "ティガー",
+      image: "images/character/tigger.png"
+    },
+    {
+      name: "ピグレット",
+      image: "images/character/piglet.png"
+    },
+    {
+      name: "イーヨー",
+      image: "images/character/eeyore.png"
     },
   ]
 };
